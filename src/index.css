@@ -5,9 +5,21 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.bodypic{
+  background-image: url("https://igamingbusiness.com/img-srv/EwcwF1yOmvRUK1RnLGQPCGCQczzbKXRh6MIfk1SQVh8/resizing_type:auto/width:2568/height:0/gravity:sm/enlarge:1/ext:webp/strip_metadata:1/quality:90/bG9jYWw6Ly8vb3JpZ2luLmlnYW1pbmdidXNpbmVzcy5jb20vd3AtY29udGVudC91cGxvYWRzLzIwMjIvMTIvR0ctV2Vic2l0ZV9XaGl0ZS5wbmc.webp");
+ height: 400px;
+ width: 100vw;
+ background-repeat: no-repeat;
+ object-fit: fill;
+ background-size: cover;
+}
+
+
