@@ -1,14 +1,17 @@
 import logo from './logo.svg';
 import './App.css';
-import Members from './components/Members';
-import Team from './components/Team';
-import Header from './components/Header';
+import Tms from './components/Tms';
+import Nav from './components/Navbar';
+
 
 function App() {
   return (
    <div className='test'>
+    <Nav/>
+    <Tms/>
     
-    <Team/>
+    
+
     </div>
   );
 }

@@ -5,7 +5,11 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  
+  background-image: url(https://png.pngtree.com/background/20210714/original/pngtree-abstract-vector-polygonal-dark-blue-background-with-triangle-shape-grid-futuristic-picture-image_1250072.jpg);
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-position: center;
+  height: 100%;
 }
 
 code {
@@ -15,11 +19,94 @@ code {
 
 .bodypic{
   background-image: url("https://igamingbusiness.com/img-srv/EwcwF1yOmvRUK1RnLGQPCGCQczzbKXRh6MIfk1SQVh8/resizing_type:auto/width:2568/height:0/gravity:sm/enlarge:1/ext:webp/strip_metadata:1/quality:90/bG9jYWw6Ly8vb3JpZ2luLmlnYW1pbmdidXNpbmVzcy5jb20vd3AtY29udGVudC91cGxvYWRzLzIwMjIvMTIvR0ctV2Vic2l0ZV9XaGl0ZS5wbmc.webp");
- height: 400px;
- width: 100vw;
+ height: 200px;
+ width: 200px;
  background-repeat: no-repeat;
  object-fit: fill;
  background-size: cover;
 }
+.floating-image {
+  animation-name: float;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
 
+html, body {
+  height: 100%;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: navy;
+  color: white;
+  height: 60px;
+  padding: 0 20px;
+}
+
+.navbar h1 {
+  margin: 0;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.navbar img {
+  display: block;
+  height: auto;
+}
+
+@media (min-width: 768px) {
+  .navbar h1 {
+    font-size: 2rem;
+    text-align: left;
+  }
+
+  .navbar img {
+    margin: 0;
+  }
+}
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .tms {
+    max-width: 540px;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .tms {
+    max-width: 720px;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .tms {
+    max-width: 960px;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .tms {
+    max-width: 1140px;
+  }
+}
+
+
+@keyframes float {
+  0% {
+    transform: translatey(0px);
+  }
+  50% {
+    transform: translatey(-10px);
+  }
+  100% {
+    transform: translatey(0px);
+  }
+}
 
