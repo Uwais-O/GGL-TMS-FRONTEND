@@ -3,7 +3,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 
-Link to the deployed app: [)
+Link to the deployed app: https://ggl-tms.netlify.app/
 
 ## Running App locally
 1. Clone the repository: `git clone https://github.com/Uwais-O/GGL-TMS-FRONTEND.git`
@@ -14,8 +14,11 @@ Link to the deployed app: [)
 
 4. Run the app locally: `npm start`
 
+## Linking backend
+The app made PATCH, delete and get requests to the backend api using the Axios library
+
 ## Deploying the frontend
-1. The app was deployed using Netlify and is available at [)
+1. The app was deployed using Netlify and is available at https://ggl-tms.netlify.app/
 
 ## Testing
 1. Cypress end to end tests were conducted. The tests are included in the "cypress" folder.
