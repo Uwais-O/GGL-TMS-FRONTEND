@@ -26,5 +26,7 @@ The app made PATCH, delete and get requests to the backend api using the Axios l
 3. All tests passed.
 
 ## Issues
-1. Bootstrap styling could be improved 
+1. Bootstrap styling could be improved.
 2. CSS written to handle different screen sizes does not function as intended. 
+3. A dialogue box should have been implemented to edit/update.
+4. ID should not be displayed as it is just a key.
