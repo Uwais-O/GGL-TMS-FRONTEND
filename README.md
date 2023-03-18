@@ -11,3 +11,5 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 4. Run the app locally: `npm start`
 
+### Deploying the frontend
+1. 
